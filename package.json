@@ -1,0 +1,13 @@
+{
+  "name": "localscript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build":"./node_modules/.bin/webpack .",
+    "test": "./node_modules/.bin/webpack-dev-server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "GPLv3"
+}
