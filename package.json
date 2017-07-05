@@ -1,13 +1,31 @@
 {
   "name": "localscript",
+  "author": "aokihu",
   "version": "1.0.0",
-  "description": "",
+  "description": "localscript is aim to using browser local storage to cache script file.",
   "main": "index.js",
   "scripts": {
-    "build":"./node_modules/.bin/webpack .",
-    "test": "./node_modules/.bin/webpack-dev-server"
+    "test": "webpack-dev-server"
   },
-  "keywords": [],
-  "author": "",
-  "license": "GPLv3"
+  "keywords": [
+    "browser",
+    "localstorage",
+    "script",
+    "cache",
+    "local cache",
+    "script cache",
+    "speed load"
+  ],
+  "license": "GPL-3.0",
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aokihu/localscript.git"
+  },
+  "bugs": {
+    "url": "https://github.com/aokihu/localscript/issues"
+  },
+  "homepage": "https://github.com/aokihu/localscript#readme"
 }
